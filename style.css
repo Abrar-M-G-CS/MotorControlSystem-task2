@@ -1,0 +1,327 @@
+
+html,body{
+    position: absolute;
+    top:0; left:0;
+    width: 100%;
+    height:100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,54,54,1) 50%, rgba(110,110,110,1) 100%);
+
+}
+
+
+h1{
+    
+    color: white;
+    font-family: 'play', sans-serif;
+    font-size: 80px;
+    position: absolute;
+    left: 17%;
+    top: 3%; 
+}
+
+h2{
+    color: white;
+    font-family: 'play', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    left: 33%;
+    top: 75%;   
+}
+
+
+
+
+
+.FButton{
+    position: absolute;
+    top:33%;
+    left:43%;
+    display:inline-block;
+    padding:0.35em ;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.6em;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.1s;
+    }
+    .FButton:hover{
+    color:#000000;
+    background-color:rgb(33, 153, 83);
+    }
+
+  
+
+    .Left{
+        position: absolute;
+        top:45%;
+        left:30%;
+        display:inline-block;
+        padding:0.35em ;
+        border:0.1em solid #FFFFFF;
+        margin:0 0.3em 0.3em 0;
+        border-radius:0.6em;
+        box-sizing:border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#FFFFFF;
+        text-align:center;
+        transition: all 0.1s;
+       }
+      .Left:hover{
+         color:#000000;
+         background-color:rgb(33, 153, 83);
+             }
+
+.Stop{
+        position: absolute;
+        top:45%;
+        left: 45%;
+        display:inline-block;
+        padding:0.35em ;
+        border:0.1em solid #FFFFFF;
+        margin:0 0.3em 0.3em 0;
+        border-radius:0.6em;
+        box-sizing:border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#FFFFFF;
+        text-align:center;
+        transition: all 0.1s;
+        }
+        .Stop:hover{
+        color:#000000;
+        background-color:rgb(33, 153, 83);
+        }
+    
+
+        
+.Right{
+    position: absolute;
+    top:45%;
+    left:60%;
+    display:inline-block;
+    padding:0.35em ;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.6em;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.1s;
+}
+.Right:hover{
+    color:#000000;
+    background-color:rgb(33, 153, 83);
+        }
+ 
+.BButton{
+   position: absolute;
+   top:58%;
+   left: 42%;
+   display:inline-block;
+   padding:0.35em ;
+   border:0.1em solid #FFFFFF;
+   margin:0 0.3em 0.3em 0;
+   border-radius:0.6em;
+   box-sizing:border-box;
+   text-decoration:none;
+   font-family:'Roboto',sans-serif;
+   font-weight:300;
+   color:#FFFFFF;
+   text-align:center;
+   transition: all 0.1s;
+   
+}
+.BButton:hover{
+    color:#000000;
+    background-color:rgb(33, 153, 83);
+        }
+
+.robo{
+    display: block;
+    margin-left:73%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+/* this is the arm control system*/
+
+p {
+    margin-top: 0.01px;
+    opacity: 0.7;
+    color: white;
+    font-family: 'play',sans-serif;
+  }
+  
+  h3 {
+    text-align: center;
+    color:white;
+    font-family: 'play',sans-serif;
+  }
+  
+  .slideContainer {
+    width: 90%;
+    position: relative;
+    
+  }
+
+
+  .m1::before {
+    content: "0";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 1%;
+    top:2%
+
+    
+  }
+  
+  .m1::after {
+    content: "180";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 100%;
+    top:1%;
+  }
+  
+  .m2::before {
+    content: "0";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 1%;
+    top:18%;
+
+  }
+  
+  .m2::after {
+    content: "180";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 100%;
+    top: 18%;
+  }
+  
+  .m3::before {
+    content: "0";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 1%;
+    top:34%;
+  }
+  
+  .m3::after {
+    content: "180";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 100%;
+    top: 34%;
+  }
+  
+  .m4::before {
+    content: "0";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 1%;
+    top:50%;
+  }
+  
+  .m4::after {
+    content: "180";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+  }
+  
+  .m5::before {
+    content: "0";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 1%;
+    top: 66%;
+  }
+  
+  .m5::after {
+    content: "180";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 100%;
+    top: 67%;
+  }
+  
+  .m6::before {
+    content: "0";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 81%;
+    left: 1%
+    
+  }
+  .m6::after {
+    content: "180";
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    left: 100%;
+    top:81%
+    
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background:white;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 1px black;
+  }
+  .slider :hover {
+    opacity: 1;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04aa6d;
+    cursor:pointer;
+  }
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04aa6d;
+    cursor: pointer;
+  }
+
+
+        
+

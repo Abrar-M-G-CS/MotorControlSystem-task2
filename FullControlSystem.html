@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+    </style>
+
+    
+    <title>Robot Control System</title> 
+</head>
+
+<body>
+    <img src="robot.png" alt="robot img" class="robo" style="width:168px ;">
+
+
+    <div class="container">
+
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form id="myForm" action="index.php" method = "POST" target="dummyframe" >
+    
+    
+    <h1>Control System</h1>
+
+    
+
+    <div class="FButton"><!--forward button-->
+
+        <input type="submit" value="Forward" name=Forward
+        Style=" font-size: 30px; background: white ; border-color: white;color: gray;">
+    </div>
+
+
+    <div class="Left"><!--Left button-->
+
+        <input type="submit" value="Left" name=Left
+        Style=" font-size: 30px; background: white; ; border-color: white;color: gray;">
+    </div>
+
+    <div class="Stop"><!--Stop button-->
+
+        <input type="submit" value="Stop" name=Stop
+        Style=" font-size: 30px; background: white ; border-color: white;color: gray;">
+    </div>
+
+    <div class="Right"><!--Right button-->
+
+        <input type="submit" value="Right" name=Right
+        Style=" font-size: 30px; background: white ; border-color: white;color: gray;">
+    </div>
+    
+  
+
+    <div class="BButton"><!--the Backward button-->
+        <input type="submit" value="Backward" name=Backward
+        Style=" font-size: 30px; background: white ; border-color: white;color: gray;" >
+    </div>
+    
+
+</form>
+    </div>
+    
+      <h2>Arm Control</h2>
+      <hr style="height: 5px; border-width: 0; color:gray; background-color: gray;margin-top:50% ;  ">
+        <br><br><br><br><br><br><br><br>
+      
+    <div class="slideContainer">
+     
+       
+        <h3>Motor 1</h3>
+        <div class="m1">
+          <input
+            type="range"
+            min="0"
+            max="180"
+            value="0"
+            id="slider1"
+            class="slider"
+            name="v1"
+          />
+          <p>Value: <span id="value1" ></span></p>
+        </div>
+
+        <br />
+
+        
+        <h3> Motor 2</h3>
+        <div class="m2">
+          <input
+            type="range"
+            min="0"
+            max="180"
+            value="0"
+            id="slider2"
+            class="slider"
+            name="v2"
+          />
+          <p>Value: <span id="value2"></span></p>
+        </div>
+
+        <br />
+        
+        <h3>Motor 3</h3>
+        <div class="m3">
+          <input
+            type="range"
+            min="0"
+            max="180"
+            value="0"
+            id="slider3"
+            class="slider"
+            name="v3"
+          />
+          <p>Value: <span id="value3"></span></p>
+        </div>
+
+        <br />
+    
+        <h3>Motor 4</h3>
+        <div class="m4">
+          <input
+            type="range"
+            min="0"
+            max="180"
+            value="0"
+            id="slider4"
+            class="slider"
+            name="v4"
+          />
+          <p>Value: <span id="value4"></span></p>
+        </div>
+
+        <br />
+
+        <h3>Motor 5</h3>
+        <div class="m5">
+          <input
+            type="range"
+            min="0"
+            max="180"
+            value="0"
+            id="slider5"
+            class="slider"
+            name="v5"
+          />
+          <p>Value: <span id="value5"></span></p>
+        </div>
+
+        <br />
+
+        <h3>Motor 6</h3>
+        <div class="m6">
+          <input
+            type="range"
+            min="0"
+            max="180"
+            value="0"
+            id="slider6"
+            class="slider"
+            name="v6"
+          />
+          <p>Value: <span id="value6"></span></p>
+        </div>
+        <br><br>
+        <input
+          type="submit"
+          value="Save"
+          name="save"
+          style="
+            font-size: 30px;
+            background: white;
+            border-radius: 20px;
+            font-family:'play',sans-serif;
+          "
+        />
+        <input
+          type="submit"
+          value="On"
+          name="on"
+          style="font-size: 30px; background: white; border-radius: 20px ; font-family: 'play',sans-serif;"
+         
+        />
+    </div>
+    <script src="script.js"></script>
+</body>
