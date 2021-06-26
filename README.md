@@ -5,17 +5,8 @@ a Range slider to control the robot arm angel and a control system combined toge
 ![control system](https://user-images.githubusercontent.com/80005788/123516923-4296e580-d6a7-11eb-86cc-ede54e5ce46d.jpg)
 
 
-
-
-
-
-
-
-
-
-
 ![FullControlSystem](https://user-images.githubusercontent.com/80005788/123516968-7bcf5580-d6a7-11eb-980a-223691d1ea77.jpg)
-![FullControlSystem2](https://user-images.githubusercontent.com/80005788/123516917-3e6ac800-d6a7-11eb-8ee3-a8fa314f83e4.jpg)
+
 ![FullControlSystem3](https://user-images.githubusercontent.com/80005788/123516912-3a3eaa80-d6a7-11eb-88d3-5b0dd1baaf18.jpg)
 
 
